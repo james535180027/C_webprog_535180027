@@ -1,0 +1,44 @@
+<html>
+    <body>
+        <h1>Form</h1>
+        <form action="http://www.example.com/login.php" method="get">
+            <fieldset>
+                <legend>Login</legend>
+                <br>
+                <input type="text" name="username">
+                <input type="password" name="password">
+                <br>
+                <input type="checkbox" name="remember me">remember me
+            </fieldset>
+        </form>
+        <br>
+        <p>Comment</p>
+        <textarea name="comment" cols="30" rows="10"></textarea>
+        <br>
+        <p>Pilih genre musik</p>
+        <input type="radio" name="genre">Rock
+        <input type="radio" name="genre">Jazz
+        <input type="radio" name="genre">Pop
+        <br>
+        <label for="dob">Tanggal lahir</label>
+        <input type="date" name="dob">
+        <br>
+        <p>Perangkat apa yang anda sedang gunakan?</p>
+        <select name="devices">
+            <option value="komputer">Komputer</option>
+            <option value="laptop">Laptop</option>
+            <option value="Smartphone">Smartphone</option>
+        </select>
+        <br>
+        <select name="devices" size="3" multiple="multiple">
+            <option value="komputer">Komputer</option>
+            <option value="laptop">Laptop</option>
+            <option value="Smartphone">Smartphone</option>
+        </select>
+        <br>
+        <p>upload file</p>
+        <input type="file" name="file">
+        <br>
+        <input type="submit" name="submit">
+    </body>
+</html>
