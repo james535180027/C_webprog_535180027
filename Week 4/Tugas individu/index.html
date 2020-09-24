@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        .container {
+            margin: auto;
+            margin-top: 100px;
+            width: 500px;
+            border: 3px solid green;
+            padding: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        label {
+            margin-left: 150px;
+        }
+
+        .button {
+            margin-left: 150px;
+        }
+
+        button {
+            font-size: large;
+            padding: 20px;
+        }
+    </style>
+
+    <title>Kalkulator</title>
+</head>
+<body>
+    <script src="kalkulator.js"></script>
+    <h1>Kalkulator</h1>
+    <div class="container">
+        <label for="bil1">Bil 1</label>
+        <input type="text" id="bil1">
+        <br><br>
+        <label for="bil2">Bil 2</label>
+        <input type="text" id="bil2">
+        <br><br>
+        <label for="hasil">Hasil</label>
+        <input type="text" id="hasil">
+        <br><br>
+        <div class="button">
+            <button onclick="tambah()" id="tambah">+</button>
+            <button onclick="kurang()" id="kurang">-</button>
+            <button onclick="kali()" id="kali">x</button>
+            <button onclick="bagi()" id="bagi">/</button>
+        </div>
+        
+    </div>
+</body>
+</html>
